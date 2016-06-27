@@ -24,6 +24,9 @@
 ///
 /// - preconditionValidQueue() crashes whenever a database is used in an invalid
 ///   dispatch queue.
+
+import Foundation
+
 final class DatabaseScheduler {
     private static let specificKey = DispatchSpecificKey<DatabaseScheduler>()
     private var allowedSerializedDatabases: [Database]

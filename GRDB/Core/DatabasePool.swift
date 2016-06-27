@@ -14,6 +14,8 @@
     import UIKit
 #endif
 
+import Foundation
+
 /// A DatabasePool grants concurrent accesses to an SQLite database.
 public final class DatabasePool {
     

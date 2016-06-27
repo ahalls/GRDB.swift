@@ -10,6 +10,8 @@
     #endif
 #endif
 
+import Foundation
+
 /// AdaptedColumnsDescription is a type that supports the RowAdapter protocol.
 public struct AdaptedColumnsDescription {
     let columns: [(Int, String)]         // [(baseRowIndex, adaptedColumn), ...]

@@ -6,6 +6,9 @@
 ///
 /// See https://github.com/groue/GRDB.swift#fetchedrecordscontroller for
 /// more information.
+
+import Foundation
+
 public final class FetchedRecordsController<Record: RowConvertible> {
     
     // MARK: - Initialization
